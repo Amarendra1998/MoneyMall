@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Do You Have any other source of income?"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/add"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:textAllCaps="true"
+            android:background="@drawable/inputs"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:hint="Enter additional income of source"
+            android:id="@+id/salary"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:textAllCaps="true"
+            android:background="@drawable/inputs"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:hint="Enter additional income of source"
+            android:id="@+id/salary1"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:textAllCaps="true"
+            android:background="@drawable/inputs"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:hint="Enter additional income of source"
+            android:id="@+id/salary2"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:textAllCaps="true"
+            android:background="@drawable/inputs"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:hint="Enter additional income of source"
+            android:id="@+id/salary3"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="96dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/buttons"
+        android:text="Continue"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

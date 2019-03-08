@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "594946678233",
+    "firebase_url": "https://moneymall.firebaseio.com",
+    "project_id": "moneymall",
+    "storage_bucket": "moneymall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594946678233:android:f40029995519e973",
+        "android_client_info": {
+          "package_name": "com.example.computer.moneymall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594946678233-1jd3ss8h29te0bhnk4q29g6s6goeavj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.computer.moneymall",
+            "certificate_hash": "5eb8a2b428d0ca164f56d0abe5507430b6f385d8"
+          }
+        },
+        {
+          "client_id": "594946678233-c0029chnq0rjlajs5q8c4d3rc71717to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCfj0wMYoMkRZ1NfU0QBz8BRbTQVVMYq4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594946678233-c0029chnq0rjlajs5q8c4d3rc71717to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

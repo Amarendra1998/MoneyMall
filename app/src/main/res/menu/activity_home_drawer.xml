@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Employement Profile" />
+        <item
+            android:id="@+id/nav_detail"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Employement Detail" />
+        <item
+            android:id="@+id/nav_credit"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Credit Score" />
+        <item
+            android:id="@+id/nav_document"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Documents" />
+        <item
+            android:id="@+id/nav_consent"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Consent" />
+        <item
+            android:id="@+id/nav_application_tracking"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Application Tracking" />
+        <item
+            android:id="@+id/nav_Picture"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Consent" />
+        <item
+            android:id="@+id/nav_application_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Application Settings" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Product" />
+    </group>
+
+
+
+</menu>
